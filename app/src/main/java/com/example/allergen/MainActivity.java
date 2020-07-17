@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
 
         DatabaseManager.init();
         PreferencesManager.init(this);
-        DatabaseManager.mAuth.signOut();
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
